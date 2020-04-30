@@ -1,31 +1,31 @@
 <div class="container">
-    <h2>Welcome to your profile!</h2>
-    <form #userform="ngForm" (ngSubmit)="onSubmit(userform.value)">
-        <div class="form-group">
-            <label>Firstname</label>
-            <input type="text" class="formControl" name="firstname" ngModel>
-        </div>
-        <div class="form-group">
-            <label>Lastname</label>
-            <input type="text" class="formControl" name="lastname" ngModel>
-        </div>
-        <div class="form-group">
-            <label>Street</label>
-            <input type="text" class="formControl" name="street" ngModel>
-        </div>
-        <div class="form-group">
-            <label>City</label>
-            <input type="text" class="formControl" name="city" ngModel>
-        </div>
+  <h2>Welcome to your profile!</h2>
+  <form #userform="ngForm" (ngSubmit)="onSubmit(userform.value)">
+    <div class="form-group">
+      <label>Firstname</label>
+      <input type="text" class="form-control" name="firstname" ngModel />
+    </div>
+    <div class="form-group">
+      <label>Lastname</label>
+      <input type="text" class="form-control" name="lastname" ngModel />
+    </div>
+    <div class="form-group">
+      <label>Street</label>
+      <input type="text" class="form-control" name="street" ngModel />
+    </div>
+    <div class="form-group">
+      <label>City</label>
+      <input type="text" class="form-control" name="city" ngModel />
+    </div>
 
-        <div class="form-group">
-            <label>State</label>
-            <input type="text" class="formControl" name="state" ngModel>
-        </div>
-        <div class="form-group">
-            <label>Zip</label>
-            <input type="text" class="formControl" name="zip" ngModel>
-        </div>
-        <button type="submit" class="btn btn-primary">Save</button>
-    </form>
+    <div class="form-group">
+      <label>State</label>
+      <input type="text" class="form-control" name="state" ngModel />
+    </div>
+    <div class="form-group">
+      <label>Zip</label>
+      <input type="text" class="form-control" name="zip" ngModel />
+    </div>
+    <button type="submit" class="btn btn-primary">Save</button>
+  </form>
 </div>
